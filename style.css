@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo {
+  display: flex;
+  gap: 10px;
+  margin-left: 100px;
+}
+header h2 {
+  color: #462E6A;
+}
+header img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+header .header_links {
+  margin-right: 200px;
+}
+header a {
+  text-decoration: none;
+  color: #B1AEB9;
+  position: relative;
+  margin: 0 20px;
+}
+header a::after {
+  transition: 0.5s;
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #48649F;
+  color: #48649F;
+}
+header a:hover:after {
+  width: 100%;
+}
+header a:hover {
+  color: #48649F;
+  font-weight: bold;
+}
+
+.banner {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+}
+.banner .vitual {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+.banner .vitual h1 {
+  font-size: 48px;
+  color: #3C567B;
+  margin-bottom: 50px;
+}
+.banner .vitual p {
+  font-size: 19px;
+  color: #93C1F9;
+  margin-bottom: 70px;
+}
+.banner .vitual button {
+  padding: 20px 40px;
+  border-radius: 40px;
+  border: none;
+  background-color: #458FF6;
+  color: white;
+  font-weight: bold;
+  margin-right: 300px;
+}
+.banner .img {
+  width: 50%;
+  height: 100%;
+}
+.banner .img img {
+  width: 100%;
+  height: 100%;
+  padding-right: 50px;
+  padding-top: 100px;
+}/*# sourceMappingURL=style.css.map */
+.service{
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+.service h1{
+  text-align: center;
+  color: #462E6A;
+  margin-bottom: 20px;
+  margin-top: 100px;
+
+}
+.service p{
+  text-align: center;
+  color: gray;
+  margin-bottom: 50px;
+}
+.service .line{
+  width: 100px;
+  height: 10px;
+  margin: auto;
+  color: blue;
+}
+.service .cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+.service .cards .card{
+  width: 350px;
+  height: 350px;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px gray;
+}
+.service .cards .card h4{
+  text-align: center;
+  margin: 10px 0;
+  font-size: 24px;
+  
+}
+.service .cards .card img{
+  margin-left: 60px;
+}
+.service .cards .card p{
+  font-size: 15px;
+  display: inline;
+  line-height: 20px;
+}
+ .service button{
+  padding: 10px 30px;
+  margin-top: 20px;
+  display: flex;
+  margin-left: 46.5%;
+  border-color: rgb(0, 179, 255);  
+  border-radius: 30px;
+  background-color: #fff;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgb(0, 179, 255);
+  margin-top: 50px;
+}
+
+
